@@ -12,4 +12,3 @@ Napa, CA<br>
 Isolated a 188% spike in vehicle burglaries in Central LA, identifying high-risk windows (6 PM–Midnight in parking areas) for public safety resource planning.
 
 [**Read Full Case Study & Code →**](projects/lapd-crime-analysis)  
-[**View on Kaggle →**](https://www.kaggle.com/your-username/your-notebook-slug)
