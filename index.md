@@ -1,2 +1,3 @@
-# John Masyczek's Portfolio
-Data Analytics Portfolio featuring live Power BI dashboards, Python API integrations, and DAX data models.
+📍 Napa, CA • 🔗 linkedin.com/in/johnmasyczek • ✉️ masyczekj@gmail.com
+
+[📄 Download Resume (PDF)](resume.pdf)
