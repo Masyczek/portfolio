@@ -2,8 +2,6 @@ Napa, CA<br>
 [LinkedIn](https://www.linkedin.com/in/john-masyczek-36596873/)<br>
 [masyczekj@gmail.com](mailto:masyczekj@gmail.com)
 
-[Download Resume (PDF)](resume.pdf)
-
 
 ## Analytical Case Studies
 
