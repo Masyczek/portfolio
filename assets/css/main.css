@@ -15,8 +15,8 @@
   --vine: #3F6350;        /* muted vineyard green — secondary accent */
   --vine-tint: #E7EEE8;
 
-  --font-display: 'Fraunces', Georgia, serif;
-  --font-body: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   --max: 1100px;
   --gap: 1.5rem;
