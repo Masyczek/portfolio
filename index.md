@@ -68,7 +68,7 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
         <h3>LAPD Crime Data Analysis</h3>
         <p class="project-card__stat">+188% spike in vehicle burglaries</p>
         <p>Isolated a 188% spike in vehicle burglaries in Central LA and identified high-risk windows &#8212; 6PM&#8211;midnight, in parking areas &#8212; for public safety resource planning.</p>
-        <a class="project-card__link" href="{{ '/projects/lapd-crime-analysis/' | relative_url }}">Read full case study &amp; code</a>
+        <a class="project-card__link" href="{{https://www.kaggle.com/code/johnmasyczek/lapd-analysis}}">Read full case study &amp; code</a>
       </div>
       <div class="project-card project-card--placeholder">
         More case studies in progress
