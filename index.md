@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Home
-description: John Masyczek — lab operations leader turned data analyst, pursuing a data analytics management role in Portland, OR.
+description: Laboratory Operations & Data Analytics
 ---
 
 <section class="hero wrap">
   <div>
-    <p class="hero__eyebrow">Napa, CA </p>
+    <p class="hero__eyebrow">Napa, CA</p>
     <h1>Laboratory Operations & Data Analytics</h1>
     <p class="hero__lede">I work at the intersection of technical operations, data, and process improvement. My work in laboratory operations involves turning raw measurements into reliable information and decisions people can act on. I apply that same discipline to SQL, Python, R, and spatial data.</p>
     <ul class="hero__facts">
