@@ -82,7 +82,7 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
   <div class="wrap">
     <div class="section-head">
       <h2>Let's talk</h2>
-      <p>Open to data analytics management roles in the Portland, OR area.</p>
+      <p>Interested in the work or want to discuss analytics, data, or technical operations?</p>
     </div>
     <div class="contact-actions">
       <a class="btn btn--primary" href="mailto:masyczekj@gmail.com">Email me</a>
