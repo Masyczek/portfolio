@@ -7,8 +7,8 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
 <section class="hero wrap">
   <div>
     <p class="hero__eyebrow">Napa, CA </p>
-    <h1>Lab operations leader, now building a career in data analytics.</h1>
-    <p class="hero__lede">I manage a laboratory in the wine industry, where the job is turning raw measurements into decisions people can act on. I bring that same discipline to SQL, Python, and spatial data.</p>
+    <h1>Laboratory Operations & Data Analytics</h1>
+    <p class="hero__lede">I work at the intersection of technical operations, data, and process improvement. My work in laboratory operations involves turning raw measurements into reliable information and decisions people can act on. I apply that same discipline to SQL, Python, R, and spatial data.</p>
     <ul class="hero__facts">
       <li>SQL</li>
       <li>Python</li>
@@ -31,8 +31,9 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
       <div class="section-head">
         <h2>From the lab bench to the dashboard</h2>
       </div>
-      <p>For my work in the wine industry, I manage the day-to-day of laboratory operations: running quality testing, keeping results defensible and repeatable, and leading the people who generate that data. That work taught me that a number is only useful once someone turns it into a decision.</p>
-      <p>That's the instinct I bring to data analytics — pulling structure out of messy, real-world data and using it to answer a specific question, not just produce a chart.</p>
+      <p>In laboratory operations, reliable data is essential. I manage day-to-day laboratory processes, maintain quality and consistency in analytical results, and lead the people responsible for generating and interpreting that data.</p>
+      <p>That experience has shaped how I approach analytics: start with a meaningful question, understand the limitations of the data, and build an analysis that produces a useful answer.</p>
+      <p>My independent projects apply that same approach to public datasets, using tools such as SQL, Python, R, and GIS to explore real-world operational and spatial questions.</p>
     </div>
     <div class="skills">
       <div class="skill-group">
