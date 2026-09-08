@@ -6,7 +6,7 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
 
 <section class="hero wrap">
   <div>
-    <p class="hero__eyebrow">Napa, CA &rarr; Portland, OR</p>
+    <p class="hero__eyebrow">Napa, CA </p>
     <h1>Lab operations leader, now building a career in data analytics.</h1>
     <p class="hero__lede">I manage a laboratory in the wine industry, where the job is turning raw measurements into decisions people can act on. I bring that same discipline to SQL, Python, and spatial data — and I'm looking for a data analytics management role in the Portland, OR area.</p>
     <ul class="hero__facts">
