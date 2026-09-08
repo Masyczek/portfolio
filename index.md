@@ -32,7 +32,7 @@ description: John Masyczek — lab operations leader turned data analyst, pursui
         <h2>From the lab bench to the dashboard</h2>
       </div>
       <p>For my work in the wine industry, I manage the day-to-day of laboratory operations: running quality testing, keeping results defensible and repeatable, and leading the people who generate that data. That work taught me that a number is only useful once someone turns it into a decision.</p>
-      <p>That's the instinct I bring to data analytics — pulling structure out of messy, real-world data and using it to answer a specific question, not just produce a chart. I'm now looking to bring that same combination of technical rigor and people-management experience to a data analytics management role in the Portland, OR area, at roughly the $100K level.</p>
+      <p>That's the instinct I bring to data analytics — pulling structure out of messy, real-world data and using it to answer a specific question, not just produce a chart.</p>
     </div>
     <div class="skills">
       <div class="skill-group">
