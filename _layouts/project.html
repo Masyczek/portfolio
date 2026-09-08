@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="wrap project-page">
+  <a class="back-link" href="{{ '/' | relative_url }}#projects">&larr; All projects</a>
+  <h1>{{ page.title }}</h1>
+  {% if page.tools %}<p class="project-page__meta">Tools: {{ page.tools }}</p>{% endif %}
+  <div class="project-page__body">
+    {{ content }}
+  </div>
+</article>

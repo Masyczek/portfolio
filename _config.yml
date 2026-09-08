@@ -1,3 +1,22 @@
-theme: jekyll-theme-cayman
 title: John Masyczek
-description: Data Analyst | SQL • Python • Spatial Data
+description: "Data Analytics | SQL, Python, Spatial Data"
+url: "https://johnmasyczek.com"
+baseurl: ""
+
+# We're using a fully custom layout/CSS system instead of a remote theme,
+# so no `theme:` or `remote_theme:` line is needed. GitHub Pages will build
+# this with the default Jekyll processor — no Gemfile required.
+
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: "projects"
+    values:
+      layout: project
+
+exclude:
+  - README.md
