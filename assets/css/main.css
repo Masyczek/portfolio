@@ -284,6 +284,57 @@ section#about { border-top: none; }
   height: auto;
 }
 
+/* Project report typography and data presentation */
+.project-page__body {
+  line-height: 1.7;
+}
+
+.project-page__body h2 {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--line);
+  margin-top: 2.5rem;
+}
+
+.project-page__body h3 {
+  margin-top: 1.8rem;
+}
+
+.project-page__body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0 2rem;
+}
+
+.project-page__body th,
+.project-page__body td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.project-page__body th {
+  font-weight: 600;
+  background: var(--vine-tint);
+}
+
+.project-page__body img {
+  width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+}
+
+.project-page__body img + em,
+.project-page__body p:has(> img) + p {
+  margin-top: 0.5rem;
+}
+
+.project-page__body hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2.5rem 0;
+}
+
 /* ---------------- Contact ---------------- */
 .contact-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; }
 

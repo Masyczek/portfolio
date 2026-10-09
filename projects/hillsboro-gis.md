@@ -4,8 +4,6 @@ title: "Hillsboro, Oregon: Development, Land Use, and the Built Environment"
 description: "A reproducible GIS analysis of construction activity, zoning, comprehensive planning, and building age."
 tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 ---
-# Hillsboro, Oregon: Development, Land Use, and the Built Environment
-
 **Study Area:** Hillsboro, Oregon  
 **Data Snapshot:** September 15, 2026
 
@@ -18,23 +16,12 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 - **Industrial activity is concentrated in a distinctive planning context.** Within the examined *Developer Industrial* project intersections with *Industrial Sanctuary* zoning, infrastructure accounts for **46.1%** of measured intersection acreage, data-center projects for **35.7%**, and other projects for **18.1%**. These are shares of a **23.55-acre analytical subset**, not of all citywide development.
 - **Industrial land uses account for a substantial share of project overlap with comprehensive-plan designations.** The Industrial designation represents approximately **44.5 acres**, or **46%** of the measured project–plan intersection acreage in this analysis.
 - **Project-associated buildings skew toward recent construction.** Of **1,028 distinct buildings** identified as intersecting construction-project boundaries, **856** were recorded as built in **2010 or later**. This describes the spatially associated building inventory, not buildings necessarily constructed by the projects.
-
-**Tools:** Python · ArcGIS REST services · GeoPackage · QGIS · spreadsheet pivot tables and charts  
+ 
 **Project:** [Source code and methodology on GitHub](https://github.com/Masyczek/hillsborogis)
 
 ---
 
-## 1. Executive Summary
-
-Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to a practical question: **How is Hillsboro growing, and how does current development relate to zoning, long-term planning, and the existing built environment?**
-
-I assembled a snapshot of publicly available municipal geographic data, prepared it in Python, and used QGIS to evaluate three relationships: construction projects and zoning districts; construction projects and comprehensive-plan designations; and construction projects and building age. The outputs include mapped study areas, spatial-intersection tables, and charts designed to make the results understandable without requiring the reader to operate GIS software.
-
-The clearest result emerged from a closer examination of *Developer Industrial* projects intersecting *Industrial Sanctuary* zoning. Within that specific subset, projects classified as infrastructure and data centers collectively account for approximately **81.8% of measured intersection acreage**. The comprehensive-plan analysis provides a broader perspective, showing that the Industrial planned-land-use category represents a large share of project overlap. The building analysis, meanwhile, shows that the inventory of buildings associated spatially with mapped project boundaries is heavily weighted toward buildings recorded as constructed since 2010.
-
-These results are **spatial associations**, not causal findings. A project boundary intersecting a zoning district does not imply that its entire area is under construction; likewise, a building intersecting a project boundary is not necessarily a product of that project. The value of the study lies in making those relationships measurable, interpretable, and reproducible.
-
-## 2. Research Question and Study Area
+## Research Question and Study Area
 
 ### Research question
 
@@ -52,7 +39,7 @@ Hillsboro offers a useful case study because its geography includes established 
 
 *Figure 1. Hillsboro development study area. The map locates construction-project boundaries in the context of the existing built environment and municipal boundary.*
 
-## 3. Data and Methodology
+## Data and Methodology
 
 ### Data Snapshot
 
@@ -92,7 +79,7 @@ I exported or summarized the resulting attribute tables for pivot-table analysis
 
 **“Intersection acreage” is the area where two mapped polygons overlap.** It is not equivalent to permitted floor area, developed land area, construction footprint, or the acreage of a completed project. Similarly, a spatial intersection between a building and a project boundary establishes geographic overlap, not a construction date or causal relationship between the two records.
 
-## 4. REL-001 — Construction Projects and Zoning
+## REL-001 — Construction Projects and Zoning
 
 The first analysis compares mapped construction-project boundaries with zoning districts. An initial cross-tabulation of **project intersection acreage by development type and zoning district** identified *Developer Industrial* projects intersecting *Industrial Sanctuary* zoning as a useful area for closer examination.
 
@@ -125,7 +112,7 @@ The data-center category includes records associated with operators and developm
 
 This progression—from an aggregate zoning comparison to a project-level drilldown—illustrates an important analytical practice: a strong pattern in a chart is a starting point for investigation, not a sufficient explanation by itself.
 
-## 5. REL-002 — Construction Projects and Planned Land Use
+## REL-002 — Construction Projects and Planned Land Use
 
 Zoning describes the regulatory land-use framework, while the comprehensive plan provides a longer-term view of intended land use. To examine this distinction, I intersected the same construction-project boundaries with comprehensive-plan polygons and summarized their overlap acreage by project type and planned-land-use category.
 
@@ -141,7 +128,7 @@ These results are consistent with meaningful differences in where industrial and
 
 Taken together, REL-001 and REL-002 provide complementary perspectives. The zoning analysis identifies the regulatory districts associated with project footprints; the comprehensive-plan analysis places those footprints in the context of the city's longer-term land-use structure.
 
-## 6. REL-003 — Construction Projects and Building Age
+## REL-003 — Construction Projects and Building Age
 
 The third analysis examines the existing built environment rather than land-use designations. I associated building footprints with construction-project boundaries and compared the distribution of recorded building years across project types.
 
@@ -157,7 +144,7 @@ This contrast is plausible given the different spatial settings of residential d
 
 The 100% stacked visualization is most useful for comparing **composition within each building era**. Absolute building counts, reported separately above, are necessary to understand the overall scale of the associations.
 
-## 7. Limitations and Data Quality
+## Limitations and Data Quality
 
 Several limitations are central to interpreting this study responsibly.
 
@@ -177,7 +164,7 @@ Several limitations are central to interpreting this study responsibly.
 
 These constraints do not invalidate the results. They define precisely what the maps and charts can—and cannot—support.
 
-## 8. Conclusion
+## Conclusion
 
 This project began as an opportunity to learn and apply GIS in a region of personal and professional interest. It developed into an end-to-end spatial-analysis case study: acquiring public data, preserving a reproducible snapshot, preparing attributes in Python, running spatial operations in QGIS, and turning the resulting tables into interpretable maps and charts.
 
