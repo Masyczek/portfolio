@@ -268,7 +268,12 @@ section#about { border-top: none; }
 }
 .project-page__meta { color: var(--muted); font-size: 0.95rem; }
 .project-page__body :is(h2, h3) { margin-top: 1.6em; }
-.project-page__body p {
+/* Allow all report content to use the full available width */
+.project-page__body p,
+.project-page__body ul,
+.project-page__body ol,
+.project-page__body blockquote,
+.project-page__body table {
   max-width: none;
 }
 
