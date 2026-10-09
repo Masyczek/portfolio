@@ -1,8 +1,4 @@
 /* ============================================================
-   Design tokens
-   Palette grounded in the two worlds this site bridges:
-   wine-lab operations (bordeaux, vine green) and analytical
-   data work (ink, hairline greys). Not a stock AI palette.
    ============================================================ */
 :root {
   --bg: #F5F6F2;          /* cool stone, not warm cream */
@@ -269,6 +265,13 @@ section#about { border-top: none; }
 .project-page__meta { color: var(--muted); font-size: 0.95rem; }
 .project-page__body :is(h2, h3) { margin-top: 1.6em; }
 .project-page__body p { max-width: none; }
+
+/* Keep maps and charts within the project report column */
+.project-page__body img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* ---------------- Contact ---------------- */
 .contact-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; }

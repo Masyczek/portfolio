@@ -48,7 +48,7 @@ I organized the investigation around three supporting questions:
 
 Hillsboro offers a useful case study because its geography includes established neighborhoods, new residential development, transportation and utility infrastructure, and specialized industrial districts. The city's *Industrial Sanctuary* zoning is especially relevant to understanding the geography of industrial projects. At the same time, comparing projects with the comprehensive plan and existing buildings broadens the analysis beyond any single industry.
 
-![Hillsboro development study area, showing construction projects, buildings, roads, and city limits.](assets/hillsboro/maps/hillsboro_study_area.png)
+![Hillsboro development study area, showing construction projects, buildings, roads, and city limits.]({{ '/assets/hillsboro/maps/hillsboro_study_area.png' | relative_url }})
 
 *Figure 1. Hillsboro development study area. The map locates construction-project boundaries in the context of the existing built environment and municipal boundary.*
 
@@ -102,7 +102,7 @@ The first analysis compares mapped construction-project boundaries with zoning d
 
 Rather than interpreting that aggregate as a single kind of industrial construction, I reviewed the individual project records and grouped the relevant projects by their documented purpose. This produced a more informative distinction among **infrastructure**, **data centers**, and **other** development.
 
-![Developer Industrial project intersections within Industrial Sanctuary zoning in northern Hillsboro.](assets/hillsboro/maps/REL-001_Industrial_Sanctuary.png)
+![Developer Industrial project intersections within Industrial Sanctuary zoning in northern Hillsboro.]({{ '/assets/hillsboro/maps/rel001_industrial_sanctuary.png' | relative_url }})
 
 *Figure 3. Industrial Sanctuary development activity. The highlighted project polygons depict the measured intersections of Developer Industrial project boundaries with Industrial Sanctuary zoning, not the full extent of every underlying project.*
 
@@ -115,7 +115,7 @@ Rather than interpreting that aggregate as a single kind of industrial construct
 | Other | 4.27 | 18.1% |
 | **Total** | **23.55** | **100.0%** |
 
-![Industrial Sanctuary project intersection acreage by purpose.](assets/hillsboro/charts/Industrial%20Sanctuary%20Acreage%20by%20Project%20Purpose.png)
+![Industrial Sanctuary project intersection acreage by purpose.]({{ '/assets/hillsboro/charts/Industrial%20Sanctuary%20Acreage%20by%20Project%20Purpose.png' | relative_url }})
 
 *Figure 4. Composition of Developer Industrial project intersection acreage within Industrial Sanctuary zoning. Percentages are rounded.*
 
@@ -129,7 +129,7 @@ This progression—from an aggregate zoning comparison to a project-level drilld
 
 Zoning describes the regulatory land-use framework, while the comprehensive plan provides a longer-term view of intended land use. To examine this distinction, I intersected the same construction-project boundaries with comprehensive-plan polygons and summarized their overlap acreage by project type and planned-land-use category.
 
-![Construction project intersection acreage by comprehensive-plan land-use designation.](assets/hillsboro/charts/Construction%20Project%20Activity%20by%20Planned%20Land%20Use.png)
+![Construction project intersection acreage by comprehensive-plan land-use designation.]({{ '/assets/hillsboro/charts/Construction%20Project%20Activity%20by%20Planned%20Land%20Use.png' | relative_url }})
 
 *Figure 5. Construction project activity by planned land use, measured as project-boundary intersection acreage.*
 
@@ -147,7 +147,7 @@ The third analysis examines the existing built environment rather than land-use 
 
 Across the analyzed project intersections, **1,028 distinct buildings** were identified. Of those, **856 buildings**—approximately **83%**—had recorded construction years of **2010 or later**. This is a descriptive result for buildings spatially associated with the project dataset, not a statement about the age distribution of all buildings in Hillsboro.
 
-![Composition of project types across building-era categories.](assets/hillsboro/charts/Project%20Type%20Distribution%20by%20Building%20Era.png)
+![Composition of project types across building-era categories.]({{ '/assets/hillsboro/charts/Project%20Type%20Distribution%20by%20Building%20Era.png' | relative_url }})
 
 *Figure 6. Project type distribution by building era. Each 100% stacked column shows the mix of project types within that building-era group; it does not show the absolute number of buildings in each era.*
 
