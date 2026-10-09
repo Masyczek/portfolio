@@ -76,7 +76,7 @@ description: Laboratory Operations & Data Analytics
           <h3>Hillsboro Growth &amp; Development GIS Analysis</h3>
           <p class="project-card__stat">3 spatial relationships analyzed</p>
           <p>Investigated how construction projects relate to zoning, planned land use, and existing buildings in Hillsboro, Oregon. Built a reproducible GIS workflow and communicated development patterns through maps, charts, and spatial analysis.</p>
-          <a class="project-card__link" href="{{ '/projects/hillsboro-gis/' | relative_url }}">Read full GIS case study</a>
+          <a class="project-card__link" href="{{ '/projects/hillsboro-gis.html' | relative_url }}">Read full GIS case study</a>
         </div>
     </div>
   </div>
