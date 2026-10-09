@@ -71,9 +71,13 @@ description: Laboratory Operations & Data Analytics
         <p>Isolated a 188% spike in vehicle burglaries in Central LA and identified high-risk windows &#8212; 6PM&#8211;midnight, in parking areas &#8212; for public safety resource planning.</p>
         <a class="project-card__link" href="https://www.kaggle.com/code/johnmasyczek/lapd-analysis">Read full case study &amp; code</a>
       </div>
-      <div class="project-card project-card--placeholder">
-        More case studies in progress
-      </div>
+        <div class="project-card">
+          <p class="project-card__meta">2026 &middot; Python, QGIS, ArcGIS REST, GeoPackage</p>
+          <h3>Hillsboro Growth &amp; Development GIS Analysis</h3>
+          <p class="project-card__stat">3 spatial relationships analyzed</p>
+          <p>Investigated how construction projects relate to zoning, planned land use, and existing buildings in Hillsboro, Oregon. Built a reproducible GIS workflow and communicated development patterns through maps, charts, and spatial analysis.</p>
+          <a class="project-card__link" href="{{ '/projects/hillsboro-gis/' | relative_url }}">Read full GIS case study</a>
+        </div>
     </div>
   </div>
 </section>

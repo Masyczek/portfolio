@@ -279,6 +279,11 @@ section#about { border-top: none; }
   height: auto;
 }
 
+/* Let figures use the full report width */
+.project-page__body p:has(img) {
+  max-width: none;
+}
+
 /* ---------------- Contact ---------------- */
 .contact-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.2rem; }
 
