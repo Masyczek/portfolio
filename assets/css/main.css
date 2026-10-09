@@ -268,7 +268,9 @@ section#about { border-top: none; }
 }
 .project-page__meta { color: var(--muted); font-size: 0.95rem; }
 .project-page__body :is(h2, h3) { margin-top: 1.6em; }
-.project-page__body p { max-width: none; }
+.project-page__body p {
+  max-width: 80ch;
+}
 
 /* Keep maps and charts within the project report column */
 .project-page__body img {
