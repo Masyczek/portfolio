@@ -318,6 +318,16 @@ section#about { border-top: none; }
   background: var(--vine-tint);
 }
 
+.project-page__body th:first-child,
+.project-page__body td:first-child {
+  text-align: left;
+}
+
+.project-page__body th:not(:first-child),
+.project-page__body td:not(:first-child) {
+  text-align: right;
+}
+
 .project-page__body img {
   width: 100%;
   height: auto;
