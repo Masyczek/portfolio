@@ -102,7 +102,7 @@ The first analysis compares mapped construction-project boundaries with zoning d
 
 Rather than interpreting that aggregate as a single kind of industrial construction, I reviewed the individual project records and grouped the relevant projects by their documented purpose. This produced a more informative distinction among **infrastructure**, **data centers**, and **other** development.
 
-![Developer Industrial project intersections within Industrial Sanctuary zoning in northern Hillsboro.]({{ '/assets/hillsboro/maps/rel001_industrial_sanctuary.png' | relative_url }})
+![Developer Industrial project intersections within Industrial Sanctuary zoning in northern Hillsboro.]({{ '/assets/hillsboro/maps/REL-001_Industrial_Sanctuary.png' | relative_url }})
 
 *Figure 3. Industrial Sanctuary development activity. The highlighted project polygons depict the measured intersections of Developer Industrial project boundaries with Industrial Sanctuary zoning, not the full extent of every underlying project.*
 
