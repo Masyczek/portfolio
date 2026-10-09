@@ -269,7 +269,7 @@ section#about { border-top: none; }
 .project-page__meta { color: var(--muted); font-size: 0.95rem; }
 .project-page__body :is(h2, h3) { margin-top: 1.6em; }
 .project-page__body p {
-  max-width: 80ch;
+  max-width: none;
 }
 
 /* Keep maps and charts within the project report column */
@@ -277,11 +277,6 @@ section#about { border-top: none; }
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-/* Let figures use the full report width */
-.project-page__body p:has(img) {
-  max-width: none;
 }
 
 /* ---------------- Contact ---------------- */
