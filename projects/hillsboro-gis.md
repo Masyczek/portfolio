@@ -9,7 +9,7 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 
 **A reproducible GIS case study of construction projects, zoning, comprehensive planning, and building age**
 
-**At a glance:** I built a reproducible spatial-analysis workflow using municipal GIS data, Python, QGIS, and spreadsheet analysis to examine where Hillsboro's construction projects intersect industrial zoning, planned land uses, and existing buildings.
+**At a glance:** I acquired and prepared municipal GIS datasets, performed three spatial analyses in QGIS, and developed maps and charts to investigate the relationships between construction projects, zoning, planned land uses, and existing buildings.
 
 **Key findings**
 
@@ -22,7 +22,7 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 ---
 ## 1. Executive Summary
 
-Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to a practical question: **How is Hillsboro growing, and how does current development relate to zoning, long-term planning, and the existing built environment?**
+Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to examine how development relates to zoning, long-term planning, and the existing built environment.
 
 I assembled a snapshot of publicly available municipal geographic data, prepared it in Python, and used QGIS to evaluate three relationships: construction projects and zoning districts; construction projects and comprehensive-plan designations; and construction projects and building age. The outputs include mapped study areas, spatial-intersection tables, and charts designed to make the results understandable without requiring the reader to operate GIS software.
 
