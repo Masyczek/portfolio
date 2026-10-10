@@ -365,3 +365,43 @@ section#about { border-top: none; }
   .about-grid { grid-template-columns: 1fr; }
   .site-nav { gap: 1rem; }
 }
+
+/* Mobile layout for project reports */
+@media (max-width: 600px) {
+
+  .project-page {
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem 1rem 3rem;
+    box-sizing: border-box;
+  }
+
+  .project-page h1 {
+    font-size: clamp(1.8rem, 7vw, 2.4rem);
+    line-height: 1.15;
+    overflow-wrap: break-word;
+  }
+
+  .project-page__body {
+    font-size: 1rem;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  .project-page__body img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-page__body table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .project-page__body th,
+  .project-page__body td {
+    white-space: nowrap;
+  }
+}
