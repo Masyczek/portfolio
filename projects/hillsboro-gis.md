@@ -22,7 +22,7 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 ---
 ## Executive Summary
 
-Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to examine how development relates to zoning, long-term planning, and the existing built environment.
+Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for this GIS learning project because its evolving development patterns and industrial geography provide a compelling setting for applied spatial analysis. The study offered an opportunity to apply reproducible data preparation and spatial analysis to examine how development relates to zoning, long-term planning, and the existing built environment.
 
 I assembled a snapshot of publicly available municipal geographic data, prepared it in Python, and used QGIS to evaluate three relationships: construction projects and zoning districts; construction projects and comprehensive-plan designations; and construction projects and building age. The outputs include mapped study areas, spatial-intersection tables, and charts designed to make the results understandable without requiring the reader to operate GIS software.
 
