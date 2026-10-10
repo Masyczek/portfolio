@@ -20,7 +20,7 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 **Project:** [Source code and methodology on GitHub](https://github.com/Masyczek/hillsborogis)
 
 ---
-## 1. Executive Summary
+## Executive Summary
 
 Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to examine how development relates to zoning, long-term planning, and the existing built environment.
 
