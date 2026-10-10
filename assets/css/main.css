@@ -381,11 +381,13 @@ section#about { border-top: none; }
     line-height: 1.15;
     overflow-wrap: break-word;
   }
-
+  
   .project-page__body {
     font-size: 1rem;
     line-height: 1.65;
     overflow-wrap: break-word;
+    min-width: 0;
+    max-width: 100%;
   }
 
   .project-page__body img {
@@ -396,6 +398,7 @@ section#about { border-top: none; }
   .project-page__body table {
     display: block;
     width: 100%;
+    max-width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
