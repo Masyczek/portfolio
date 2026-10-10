@@ -367,7 +367,7 @@ section#about { border-top: none; }
 }
 
 /* Mobile layout for project reports */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
   .project-page {
     width: 100%;
