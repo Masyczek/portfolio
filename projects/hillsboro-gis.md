@@ -20,6 +20,15 @@ tools: "Python · QGIS · ArcGIS REST API · GeoPackage · Pivot Tables"
 **Project:** [Source code and methodology on GitHub](https://github.com/Masyczek/hillsborogis)
 
 ---
+## 1. Executive Summary
+
+Hillsboro, Oregon, is a significant employment and development center in the Portland metropolitan area, with a prominent industrial and semiconductor-related business presence. I selected Hillsboro for a GIS learning project because its development patterns and industrial geography are relevant to the region where I hope to work and live. The study offered an opportunity to apply reproducible data preparation and spatial analysis to a practical question: **How is Hillsboro growing, and how does current development relate to zoning, long-term planning, and the existing built environment?**
+
+I assembled a snapshot of publicly available municipal geographic data, prepared it in Python, and used QGIS to evaluate three relationships: construction projects and zoning districts; construction projects and comprehensive-plan designations; and construction projects and building age. The outputs include mapped study areas, spatial-intersection tables, and charts designed to make the results understandable without requiring the reader to operate GIS software.
+
+The clearest result emerged from a closer examination of *Developer Industrial* projects intersecting *Industrial Sanctuary* zoning. Within that specific subset, projects classified as infrastructure and data centers collectively account for approximately **81.8% of measured intersection acreage**. The comprehensive-plan analysis provides a broader perspective, showing that the Industrial planned-land-use category represents a large share of project overlap. The building analysis, meanwhile, shows that the inventory of buildings associated spatially with mapped project boundaries is heavily weighted toward buildings recorded as constructed since 2010.
+
+These results are **spatial associations**, not causal findings. A project boundary intersecting a zoning district does not imply that its entire area is under construction; likewise, a building intersecting a project boundary is not necessarily a product of that project. The value of the study lies in making those relationships measurable, interpretable, and reproducible.
 
 ## Research Question and Study Area
 
