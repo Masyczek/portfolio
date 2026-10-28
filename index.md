@@ -60,7 +60,7 @@ description: Laboratory Operations & Data Analytics
 <section id="projects">
   <div class="wrap">
     <div class="section-head">
-      <h2>Analytical case studies</h2>
+      <h2>Projects &amp; Case Studies</h2>
       <p>Independent projects in data analytics, spatial analysis, and technical infrastructure.</p>
     </div>
     <div class="project-list">
