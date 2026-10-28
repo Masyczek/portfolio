@@ -257,8 +257,10 @@ section#about { border-top: none; }
 /* ---------------- Project detail page ---------------- */
 .project-page {
   padding: 3.5rem 0 5rem;
-  max-width: 100%;
+  max-width: 1050px;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .back-link {
   display: inline-block;
