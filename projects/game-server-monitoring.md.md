@@ -37,7 +37,7 @@ permalink: /servers/
       <iframe
         src="https://grafana.johnmasyczek.com/d/game-servers?orgId=1&amp;kiosk"
         title="Live Game Server Monitoring Dashboard"
-        style="display: block; width: 100%; height: 750px; border: 0;"
+        style="display: block; width: 100%; height: 850px; border: 0;"
         loading="lazy"
         referrerpolicy="strict-origin-when-cross-origin">
       </iframe>
