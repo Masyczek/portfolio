@@ -61,7 +61,7 @@ description: Laboratory Operations & Data Analytics
   <div class="wrap">
     <div class="section-head">
       <h2>Analytical case studies</h2>
-      <p>Independent projects applying the same rigor from the lab to open data.</p>
+      <p>Independent projects in data analytics, spatial analysis, and technical infrastructure.</p>
     </div>
     <div class="project-list">
       <div class="project-card">
@@ -78,6 +78,13 @@ description: Laboratory Operations & Data Analytics
           <p>Investigated how construction projects relate to zoning, planned land use, and existing buildings in Hillsboro, Oregon. Built a reproducible GIS workflow and communicated development patterns through maps, charts, and spatial analysis.</p>
           <a class="project-card__link" href="{{ '/projects/hillsboro-gis.html' | relative_url }}">Read full GIS case study</a>
         </div>
+      <div class="project-card">
+          <p class="project-card__meta">2026 &middot; Linux, Docker, PostgreSQL, Python, Grafana</p>
+          <h3>Live Game Server Monitoring</h3>
+          <p class="project-card__stat">4 game servers &middot; Live telemetry</p>
+          <p>Designed and deployed a self-hosted monitoring system that collects container performance metrics, tracks automated backup health, and visualizes operational data through live dashboards. Built a separate, read-only public interface with restricted database access and secure HTTPS delivery.</p>
+          <a class="project-card__link" href="{{ '/servers/' | relative_url }}">Explore live monitoring dashboard</a>
+      </div>
     </div>
   </div>
 </section>
